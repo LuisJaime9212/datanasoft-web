@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DATANA SOFT · Datos e IA que generan impacto</title>
+  <meta name="description" content="DATANA SOFT: consultora de ingeniería de datos e inteligencia artificial en Barcelona. Migración de EDW, lakehouse en Databricks, automatización y analítica avanzada." />
+  <meta property="og:title" content="DATANA SOFT · Datos e IA que generan impacto" />
+  <meta property="og:description" content="Modernizamos tu plataforma de datos y aplicamos IA para decisiones más rápidas y procesos automatizados." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAVEGACIÓN ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="logo" aria-label="DATANA SOFT inicio">
+        <img src="assets/logo.svg" alt="" width="32" height="32" />
+        <span>DATANA<b>SOFT</b></span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#servicios">Servicios</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#dominios">Dominios</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto" class="btn btn--primary btn--sm">Hablemos</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <canvas id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="container hero__content">
+        <p class="eyebrow">Ingeniería de datos · Inteligencia artificial</p>
+        <h1>Convierte tus datos en <span class="grad">decisiones que generan impacto</span></h1>
+        <p class="lead">Modernizamos plataformas de datos empresariales, migramos tu EDW al lakehouse y aplicamos IA para automatizar procesos y acelerar decisiones con resultados medibles.</p>
+        <div class="hero__ctas">
+          <a href="#contacto" class="btn btn--primary">Hablemos ahora</a>
+          <a href="#servicios" class="btn btn--ghost">Explorar servicios</a>
+        </div>
+        <ul class="hero__stats">
+          <li><strong data-count="6">0</strong><span>dominios EDW en producción</span></li>
+          <li><strong data-count="100" data-suffix="%">0</strong><span>enfoque en calidad del dato</span></li>
+          <li><strong data-count="2">0</strong><span>países: España y Colombia</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROPUESTA DE VALOR ============ -->
+    <section class="section" id="valor">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Por qué DATANA SOFT</p>
+          <h2>Aceleramos la transformación de tu empresa</h2>
+        </div>
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon">◆</div>
+            <h3>Decisiones más inteligentes</h3>
+            <p>Modelos predictivos y agentes de IA sobre datos fiables, para que cada decisión esté respaldada por evidencia y no por intuición.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">⟳</div>
+            <h3>Procesos automatizados</h3>
+            <p>Pipelines orquestados, cargas incrementales y controles de calidad que eliminan tareas manuales y reducen errores operativos.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">▣</div>
+            <h3>Arquitecturas modernas</h3>
+            <p>Del ETL heredado al lakehouse en la nube: menos fragmentación, más gobierno y un coste de operación predecible.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BANDA ANIMADA ============ -->
+    <section class="band" aria-hidden="true">
+      <div class="band__track">
+        <span>IA APLICADA A DATOS</span><span>•</span><span>LAKEHOUSE</span><span>•</span><span>DATA QUALITY</span><span>•</span><span>AUTOMATIZACIÓN</span><span>•</span><span>GOBIERNO DEL DATO</span><span>•</span>
+        <span>IA APLICADA A DATOS</span><span>•</span><span>LAKEHOUSE</span><span>•</span><span>DATA QUALITY</span><span>•</span><span>AUTOMATIZACIÓN</span><span>•</span><span>GOBIERNO DEL DATO</span><span>•</span>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Soluciones para empresas</p>
+          <h2>Lo que hacemos</h2>
+        </div>
+        <div class="grid grid--3">
+          <article class="service reveal">
+            <span class="service__tag">01 · Datos</span>
+            <h3>Haz que tus datos trabajen por ti</h3>
+            <p>Migración de EDW y ETL heredado (Talend, SSIS, Informatica) a Databricks con Delta Lake y Unity Catalog. Modelado, calidad y linaje de punta a punta.</p>
+            <ul>
+              <li>Migración y modernización de EDW</li>
+              <li>Arquitectura medallion (bronze/silver/gold)</li>
+              <li>Calidad, linaje y gobierno del dato</li>
+            </ul>
+            <a href="#contacto" class="link">Quiero modernizar mis datos →</a>
+          </article>
+          <article class="service reveal">
+            <span class="service__tag">02 · Automatización</span>
+            <h3>Entrega más, sin sacrificar calidad</h3>
+            <p>Ingeniería de software asistida por IA: conversión automatizada de jobs, frameworks reutilizables y CI/CD para pipelines de datos.</p>
+            <ul>
+              <li>Conversión acelerada de código ETL</li>
+              <li>Frameworks y utilidades compartidas</li>
+              <li>Testing y despliegue continuo</li>
+            </ul>
+            <a href="#contacto" class="link">Quiero acelerar entregas →</a>
+          </article>
+          <article class="service reveal">
+            <span class="service__tag">03 · Inteligencia</span>
+            <h3>Convierte información en acción</h3>
+            <p>Analítica avanzada, modelos predictivos y agentes de IA conectados a tus datos de negocio para automatizar decisiones.</p>
+            <ul>
+              <li>Modelos predictivos y forecasting</li>
+              <li>Agentes de IA sobre datos empresariales</li>
+              <li>Cuadros de mando y KPIs accionables</li>
+            </ul>
+            <a href="#contacto" class="link">Quiero aplicar IA →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ METODOLOGÍA ============ -->
+    <section class="section section--alt" id="metodologia">
+      <div class="container method">
+        <div class="method__text reveal">
+          <p class="eyebrow">Consultoría impulsada por IA</p>
+          <h2>Metodología DATANA</h2>
+          <p>Un ciclo continuo que lleva cada iniciativa desde el diagnóstico hasta la operación, con transferencia de conocimiento a tu equipo en cada paso.</p>
+          <ol class="steps" id="steps">
+            <li class="is-active"><b>Diagnóstico y roadmap</b><span>Evaluamos tu plataforma actual y priorizamos por impacto.</span></li>
+            <li><b>Base de datos confiable</b><span>Ingesta, modelado y controles de calidad.</span></li>
+            <li><b>IA aplicada al negocio</b><span>Casos de uso con retorno medible.</span></li>
+            <li><b>Despliegue seguro y escalable</b><span>CI/CD, seguridad y observabilidad.</span></li>
+            <li><b>Adopción</b><span>Formación y documentación para tu equipo.</span></li>
+            <li><b>Evolución continua</b><span>Medimos, aprendemos y mejoramos.</span></li>
+          </ol>
+        </div>
+        <div class="method__viz reveal" aria-hidden="true">
+          <svg viewBox="0 0 400 400" class="cycle" id="cycle">
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#22d3ee" /><stop offset="100%" stop-color="#8b5cf6" />
+              </linearGradient>
+            </defs>
+            <circle cx="200" cy="200" r="150" class="cycle__ring" />
+            <circle cx="200" cy="200" r="150" class="cycle__progress" id="cycleProgress" />
+            <g id="cycleNodes"></g>
+            <text x="200" y="192" class="cycle__label">CICLO</text>
+            <text x="200" y="222" class="cycle__num" id="cycleNum">01</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DOMINIOS / INDUSTRIAS ============ -->
+    <section class="section" id="dominios">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Experiencia</p>
+          <h2>Dominios de datos que dominamos</h2>
+          <p class="section__sub">Hemos construido y migrado modelos de datos empresariales en las áreas que mueven el negocio.</p>
+        </div>
+        <div class="grid grid--3 domains">
+          <article class="domain reveal"><h3>ERP</h3><p>Finanzas, compras y contabilidad integradas en un modelo único y auditable.</p></article>
+          <article class="domain reveal"><h3>HRMS</h3><p>Datos de personas, nómina y talento con seguridad y privacidad por diseño.</p></article>
+          <article class="domain reveal"><h3>eCommerce</h3><p>Pedidos, catálogo y clientes para una visión 360° del canal digital.</p></article>
+          <article class="domain reveal"><h3>Supply Chain</h3><p>Inventario, logística y demanda para planificar con anticipación.</p></article>
+          <article class="domain reveal"><h3>Clickstream</h3><p>Comportamiento digital (Adobe Analytics) a escala de miles de millones de eventos.</p></article>
+          <article class="domain reveal"><h3>Common Data</h3><p>Datos maestros y dimensiones compartidas que unifican toda la organización.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TECNOLOGÍA ============ -->
+    <section class="section section--alt" id="tecnologia">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Stack</p>
+          <h2>Tecnología con la que trabajamos</h2>
+        </div>
+        <ul class="tech reveal">
+          <li>Databricks</li><li>Apache Spark</li><li>Delta Lake</li><li>Unity Catalog</li>
+          <li>Spark SQL</li><li>PySpark</li><li>Python</li><li>Talend</li>
+          <li>Azure</li><li>AWS</li><li>Git &amp; CI/CD</li><li>LLMs &amp; agentes IA</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section class="section" id="nosotros">
+      <div class="container about reveal">
+        <div>
+          <p class="eyebrow">Quiénes somos</p>
+          <h2>Ingenieros de datos, no solo consultores</h2>
+        </div>
+        <div>
+          <p>DATANA SOFT es una firma de ingeniería de datos con sede en Barcelona y presencia en Colombia. Trabajamos dentro de proyectos de migración de EDW a gran escala, por lo que conocemos los problemas reales: código heredado, volúmenes masivos, plazos ajustados y la necesidad de no romper nada en producción.</p>
+          <p>Combinamos ese oficio con IA aplicada para entregar más rápido y con mayor calidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="cta">
+      <div class="container cta__inner reveal">
+        <p class="eyebrow">IA que funciona. Resultados que importan.</p>
+        <h2>Impacto medible desde el primer sprint</h2>
+        <a href="#contacto" class="btn btn--primary">Hablemos ahora</a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section" id="contacto">
+      <div class="container contact">
+        <div class="reveal">
+          <p class="eyebrow">Contacto</p>
+          <h2>Cuéntanos tu reto</h2>
+          <p>Te respondemos en menos de 24 horas laborables.</p>
+          <ul class="contact__info">
+            <li><span>Email</span><a href="mailto:contacto@datanasoft.com" id="contactEmail">contacto@datanasoft.com</a></li>
+            <li><span>Oficina</span>Barcelona, España</li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/" target="_blank" rel="noopener">DATANA SOFT</a></li>
+          </ul>
+        </div>
+        <form class="form reveal" id="contactForm">
+          <label>Nombre<input name="nombre" required autocomplete="name" /></label>
+          <label>Email<input name="email" type="email" required autocomplete="email" /></label>
+          <label>Empresa<input name="empresa" autocomplete="organization" /></label>
+          <label>¿En qué podemos ayudarte?<textarea name="mensaje" rows="4" required></textarea></label>
+          <button class="btn btn--primary" type="submit">Enviar mensaje</button>
+          <p class="form__note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#inicio" class="logo"><img src="assets/logo.svg" alt="" width="28" height="28" /><span>DATANA<b>SOFT</b></span></a>
+        <p class="footer__small">Ingeniería de datos e IA aplicada.</p>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <a href="#servicios">Datos</a><a href="#servicios">Automatización</a><a href="#servicios">Inteligencia</a>
+      </div>
+      <div>
+        <h4>Empresa</h4>
+        <a href="#nosotros">Nosotros</a><a href="#metodologia">Metodología</a><a href="#contacto">Contacto</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="legal.html">Aviso legal</a><a href="legal.html#privacidad">Privacidad</a><a href="legal.html#cookies">Cookies</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> DATANA SOFT, S.L. · NIF B21974290 · Barcelona</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
