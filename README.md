@@ -41,9 +41,9 @@ git add . && git commit -m "Describe el cambio" && git push
 ```
 En ~1 minuto se publica la nueva versión.
 
-## Dominio propio (opcional, p. ej. datanasoft.com)
+## Dominio propio (opcional, datanasoftcompany.com)
 
-1. **Settings → Pages → Custom domain**: escribe `www.datanasoft.com` y guarda.
+1. **Settings → Pages → Custom domain**: escribe `datanasoftcompany.com` y guarda.
 2. En tu proveedor DNS crea un registro `CNAME` de `www` → `<TU_USUARIO>.github.io`.
    Para el dominio raíz, registros `A` a `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
 3. Activa **Enforce HTTPS**.
@@ -55,6 +55,6 @@ crea un formulario gratis en [Formspree](https://formspree.io) y pega su URL en 
 
 ## Pendiente de completar
 
-- Email real de contacto (`contacto@datanasoft.com` es provisional) en `index.html`, `script.js` y `legal.html`.
+- Crear el reenvío de `contacto@datanasoftcompany.com` en Cloudflare Email Routing en `index.html`, `script.js` y `legal.html`.
 - URL de LinkedIn de la empresa en `index.html`.
 - Dirección y datos registrales en `legal.html`.

@@ -8,7 +8,7 @@
    2) Pega aquí su URL, p. ej. "https://formspree.io/f/abcdwxyz"
    Si se deja vacío, el formulario abre el cliente de correo del visitante. */
 const FORM_ENDPOINT = "";
-const CONTACT_EMAIL = "contacto@datanasoft.com";
+const CONTACT_EMAIL = "contacto@datanasoftcompany.com";
 
 /* ---------- Navegación ---------- */
 const nav = document.getElementById("nav");
